@@ -45,7 +45,7 @@ body {
 }
 
 .more {
-  background-color: rgba(255,255,255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .card {
@@ -69,20 +69,21 @@ video {
   padding: none;
   margin-bottom: 30px;
 }
-
+/* 
 video::-webkit-media-controls {
   display: none;
-}
+} */
 
 .movie-section:focus-within .card,
-.movie-section:focus, .card {
+.movie-section:focus,
+.card {
   transform: translate(-25%);
   z-index: 1;
 }
 
 .card:focus ~ .card,
 .card:hover ~ .card {
-  transform: translateX(25%)
+  transform: translateX(25%);
 }
 
 .movie-section .card:focus,
@@ -110,7 +111,7 @@ video::-webkit-media-controls {
 .logo {
   width: 88px;
   height: 22px;
-  background-image: url('https://i.imgur.com/Y9dwM3s.png');
+  background-image: url("https://i.imgur.com/Y9dwM3s.png");
   background-size: 88px;
   margin: 5px;
 }
@@ -121,7 +122,7 @@ a {
 }
 
 .more-button:hover {
-  background-color: rgb(255,255,255, 0.5);
+  background-color: rgb(255, 255, 255, 0.5);
 }
 
 .page-end {
@@ -143,4 +144,3 @@ li {
   z-index: 5;
   padding: 10px;
 }
-
